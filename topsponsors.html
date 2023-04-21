@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Consistent Sponsors</title>
+</head>
+<body>
+    <h1>The firms that gave most consistently to the two parties over the years are:</h1>
+    <ul>
+    {% for firm in highest_out_degree_nodes %}
+        <li>{{ firm }}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
+
+
+

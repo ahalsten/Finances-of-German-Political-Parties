@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Connected Nodes</title>
+</head>
+<body>
+    <h1>The following firms sponsored both the SPD and the Greens:</h1>
+    <ul>
+    {% for node in connected_nodes %}
+        <li>{{ node }}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
+
+
+
