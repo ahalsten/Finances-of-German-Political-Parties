@@ -7,6 +7,7 @@ Use data on sponsorship activities from 2019 through 2022, voluntarily provided 
 
 How to interact with the program:
 - Download the json file: mydata.json
+- Download the three html files: commonsponsors.html, topsponsors.html, total.html
 - Run program_sponsors_ahalsten.py
 - Use browser to navigate to the following URL: http://localhost:5000/
 - Optional, add graph.png, commonsponsors, total, or topsponsors
